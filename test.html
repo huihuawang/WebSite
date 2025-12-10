@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柳木言爱玩游戏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #87CEEB, #E0F7FF);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        header {
+            background: linear-gradient(90deg, #1e88e5, #0d47a1);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .table-container {
+            padding: 20px;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        
+        thead {
+            background-color: #0d47a1;
+            color: white;
+        }
+        
+        th {
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e0e0e0;
+            transition: background-color 0.2s;
+        }
+        
+        tbody tr:hover {
+            background-color: #f0f8ff;
+        }
+        
+        td {
+            padding: 14px 12px;
+            font-size: 0.95rem;
+        }
+        
+        .time-period {
+            font-weight: 600;
+            color: #0d47a1;
+        }
+        
+        .weather {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .sunny {
+            background-color: #fff9c4;
+            color: #f57f17;
+        }
+        
+        .cloudy {
+            background-color: #f5f5f5;
+            color: #616161;
+        }
+        
+        .rainy {
+            background-color: #e3f2fd;
+            color: #1565c0;
+        }
+        
+        .color-sample {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+        }
+        
+        .morning {
+            background-color: #ffcc80;
+        }
+        
+        .noon {
+            background-color: #4fc3f7;
+        }
+        
+        .evening {
+            background-color: #ff8a65;
+        }
+        
+        .night {
+            background-color: #5c6bc0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            th, td {
+                padding: 10px 8px;
+                font-size: 0.9rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>柳慕言爱玩使</h1>
+            <p class="subtitle"></p >
+        </header>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>时间段</th>
+                        <th>状况</th>
+                        <th>颜色</th>
+                        <th>心情</th>
+                        <th>表情</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="time-period">dsfc)</td>
+                        <td><span class="weather sunny">红</span></td>
+                        <td><span class="color-sample morning"></span>vcds</td>
+                        <td>愤怒</td>
+                        <td>龇牙咧嘴</td>
+                    </tr>
+                    <tr>
+                        <td class="time-period">上午 (8:00-10:00)</td>
+                        <td><span class="weather sunny">瘫软</span></td>
+                        <td><span class="color-sample noon"></span>fads</td>
+                        <td>愤怒</td>
+                        <td>爆炸</td>
+                    </tr>
+                    <tr>
+                        <td class="time-period">dfas</td>
+                        <td><span class="weather cloudy">cc</span></td>
+                        <td><span class="color-sample noon"></span>asdf</td>
+                        <td>86(</td>
+                        <td>68</td>
+                    </tr>
+                    <tr>
+                        <td class="time-period">5656</td>
+                        <td><span class="weather rainy">cc</span></td>
+                        <td><span class="color-sample noon"></span>asdv</td>
+                        <td>cdv</td>
+                        <td>cc</td>
+                    </tr>
+                    <tr>
+                        <td class="time-period">dd</td>
+                        <td><span class="weather cloudy">dd</span></td>
+                        <td><span class="color-sample evening"></span>dd</td>
+                        <td>dd)</td>
+                        <td>cc</td>
+                    </tr>
+                    <tr>
+                        <td class="time-period">dd</td>
+                        <td><span class="weather sunny">dd</span></td>
+                        <td><span class="color-sample night"></span>aa</td>
+                        <td>aa</td>
+                        <td>aaa</td>
+                    </tr>
+                    <tr>
+                        <td class="time-period">aaa</td>
+                        <td><span class="weather sunny">aaa</span></td>
+                        <td><span class="color-sample night"></span>aaa</td>
+                        <td>aaa</td>
+                        <td>银河奥特曼、玉衡星、钟离</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <footer>
+            <p>Lucas耗时1h匠心制作</p >
+        </footer>
+    </div>
+</body>
+</html>
